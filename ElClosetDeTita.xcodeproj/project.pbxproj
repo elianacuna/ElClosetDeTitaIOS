@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8943E442A1B294100DDE162 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8943E432A1B294100DDE162 /* SplashScreenView.swift */; };
+		B8943E462A1B2C1700DDE162 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8943E452A1B2C1700DDE162 /* LoginView.swift */; };
 		B8DFEFF02A1B1D9900601B52 /* ElClosetDeTitaIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DFEFEF2A1B1D9900601B52 /* ElClosetDeTitaIOSApp.swift */; };
-		B8DFEFF22A1B1D9900601B52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DFEFF12A1B1D9900601B52 /* ContentView.swift */; };
 		B8DFEFF42A1B1D9A00601B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DFEFF32A1B1D9A00601B52 /* Assets.xcassets */; };
 		B8DFEFF72A1B1D9A00601B52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DFEFF62A1B1D9A00601B52 /* Preview Assets.xcassets */; };
 		B8DFF0012A1B1D9A00601B52 /* ElClosetDeTitaIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF0002A1B1D9A00601B52 /* ElClosetDeTitaIOSTests.swift */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8943E432A1B294100DDE162 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		B8943E452A1B2C1700DDE162 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B8DFEFEC2A1B1D9900601B52 /* ElClosetDeTitaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElClosetDeTitaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DFEFEF2A1B1D9900601B52 /* ElClosetDeTitaIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElClosetDeTitaIOSApp.swift; sourceTree = "<group>"; };
-		B8DFEFF12A1B1D9900601B52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B8DFEFF32A1B1D9A00601B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8DFEFF62A1B1D9A00601B52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B8DFEFFC2A1B1D9A00601B52 /* ElClosetDeTitaIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElClosetDeTitaIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,8 +96,9 @@
 		B8DFEFEE2A1B1D9900601B52 /* ElClosetDeTitaIOS */ = {
 			isa = PBXGroup;
 			children = (
+				B8943E452A1B2C1700DDE162 /* LoginView.swift */,
 				B8DFEFEF2A1B1D9900601B52 /* ElClosetDeTitaIOSApp.swift */,
-				B8DFEFF12A1B1D9900601B52 /* ContentView.swift */,
+				B8943E432A1B294100DDE162 /* SplashScreenView.swift */,
 				B8DFEFF32A1B1D9A00601B52 /* Assets.xcassets */,
 				B8DFEFF52A1B1D9A00601B52 /* Preview Content */,
 			);
@@ -206,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B8DFEFE72A1B1D9900601B52 /* Build configuration list for PBXProject "ElClosetDeTitaIOS" */;
+			buildConfigurationList = B8DFEFE72A1B1D9900601B52 /* Build configuration list for PBXProject "ElClosetDeTita" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -257,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8DFEFF22A1B1D9900601B52 /* ContentView.swift in Sources */,
 				B8DFEFF02A1B1D9900601B52 /* ElClosetDeTitaIOSApp.swift in Sources */,
+				B8943E462A1B2C1700DDE162 /* LoginView.swift in Sources */,
+				B8943E442A1B294100DDE162 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +550,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8DFEFE72A1B1D9900601B52 /* Build configuration list for PBXProject "ElClosetDeTitaIOS" */ = {
+		B8DFEFE72A1B1D9900601B52 /* Build configuration list for PBXProject "ElClosetDeTita" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8DFF00E2A1B1D9A00601B52 /* Debug */,

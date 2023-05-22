@@ -7,15 +7,42 @@
 
 import SwiftUI
 
+struct SignUp: View {
+var body: some View {
+  Text("Sign up")
+      .font(.headline)
+      .padding()
+}
+}
+
+struct Login: View {
+var body: some View {
+  Text("Login")
+      .font(.headline)
+      .padding()
+}
+}
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            Color.blue
+                .ignoresSafeArea()
+            Text("Hola prueba splash")
+                .foregroundColor(Color.white)
+                .font(.system(size: 30))
         }
-        .padding()
+    }
+}
+
+struct oulineButtonStyle: ButtonStyle{
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .padding(10)
+            .frame(width: 300, height: 50)
+            .overlay(RoundedRectangle(cornerRadius: 10)
+                .stroke(Color.gray, lineWidth: 1)
+            )
     }
 }
 
